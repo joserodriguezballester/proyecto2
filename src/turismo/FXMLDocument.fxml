@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="453.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="turismo.FXMLDocumentController">
+   <children>
+      <TextField layoutX="299.0" layoutY="167.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="220.0" layoutY="171.0" prefHeight="17.0" prefWidth="69.0" text="Usuario:" />
+      <Label alignment="CENTER_RIGHT" layoutX="220.0" layoutY="210.0" prefHeight="17.0" prefWidth="69.0" text="Contraseña:" />
+      <Button id="boton" fx:id="boton" layoutX="363.0" layoutY="262.0" mnemonicParsing="false" stylesheets="@Estilos.css" text="Iniciar sesión" />
+      <PasswordField layoutX="299.0" layoutY="206.0" />
+      <Button id="boton" fx:id="boton" layoutX="273.0" layoutY="262.0" mnemonicParsing="false" stylesheets="@Estilos.css" text="Registrarse" />
+   </children>
+</AnchorPane>
